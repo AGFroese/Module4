@@ -1,0 +1,171 @@
+body{
+    display:block;
+    color:rgb(23, 67, 67);
+    margin:20px 20px 20px 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+    }
+h1 {
+    font-family:
+     "Cinzel Decorative", serif;
+}
+
+h2,h3 {
+    font-family: "Cormorant Garamond", serif;
+}
+
+/*placed background image in .home*/
+body.home{ 
+    background-image: url(../placeholderimages/annie-spratt-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding-left:90px;
+    padding-right:90px;   
+}
+/*added background color with opacity for content wrapper*/
+ main.content-wrapper{
+    margin: auto;
+    background-color: rgba(213, 211, 205, 0.5);
+    background-size: 95%;
+}
+
+header{
+    background: url(../placeholderimages/BW-top-bottom.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size:cover;
+
+}
+ 
+
+header h1{
+    display:inline-flexbox;
+    float: left;
+     font-style:italic;
+     font-size: 5em;
+     margin-top:20px;
+     padding-top: 0;
+     padding-left:320px;
+     padding-bottom: 0; 
+}
+header h2{
+    display: inline-flexbox;
+     float:right;
+     font-size: 3em;
+     padding-right:320px;
+     margin-top:40px;
+     text-decoration: none;
+}
+  p.clear{
+    clear:both;
+  }
+header p{
+    display: block;
+    background-color: rgb(222, 237, 239);
+    padding-left:325px;
+    padding-right:325px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 2em;
+}
+section .project p{
+    margin-left:90px;
+    margin-right:90px;
+}
+ div {
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-bottom: 20px;
+    gap:30px;
+    padding-left: 100px;
+    padding-right:100px;
+
+   
+}
+
+.project p{
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75em;
+    padding-bottom: 20px;
+}
+ h2{
+     text-align:center;
+     font-style:oblique;
+     padding-bottom:20px;
+     text-decoration:double underline cadetblue 5px;
+     font-size: 2.5em;
+     padding-left: 90px;
+     padding-right: 90px; 
+}
+   
+h3{
+   
+     text-align:center;
+     font-size: 2em;
+     padding-left: 90px;
+     padding-right: 90px;
+}
+/*added color to btn*/
+.btn {
+    display:block;
+    font-size:2em;
+    text-align: center;
+    width:fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color:azure;
+    text-decoration:none;
+   border-radius: 10px;
+}
+.education p{
+    text-align: center;
+    font-size: 1.75em;
+    
+}
+section ul li {
+    list-style: none;
+    list-style-position: inside;
+    text-align:center;
+    font-size: 1.5em;
+    
+}
+/*background color for footer*/
+footer {
+    display:block;
+    background: url(../placeholderimages/BW-top-bottom.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+footer h2{
+    text-decoration: none;
+    font-size: 2.5em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+
+}
+footer div.socials ul li{
+    display:inline-block;
+    text-decoration: none;
+    
+    
+}
+div.socials img{
+    width:110px;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 10px;
+    align-content: center;
+
+}
+@media(max-width:900px){
+}
+
+   
